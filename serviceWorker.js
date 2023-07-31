@@ -7,14 +7,13 @@ const addResourcesToCache = async (resources) => {
 };
 
 self.addEventListener('install', (event) => {
-  console.log(`${version} installing...`);
-
   event.waitUntil(
     addResourcesToCache([
       '/',
       '/index.html',
       '/styles/calculator.css',
       '/calculator.js',
+      '/images',
     ])
   );
 });
@@ -23,7 +22,6 @@ const putInCache = async (request, response) => {
   const cache = await caches.open(version);
 
   if (request.method !== 'GET') {
-    console.log('Cannot cache non-GET requests');
     return;
   }
 

@@ -1,0 +1,47 @@
+{
+  "name": "RPN Calculator",
+  "short_name": "RPN",
+  "id": "http://127.0.0.1:5500",
+  "start_url": "http://127.0.0.1:5500",
+  "display": "standalone",
+  "background_color": "#fdfdfd",
+  "theme_color": "#db4938",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "./images/icon-72x72.png",
+      "type": "image/png",
+      "sizes": "72x72"
+    },
+    {
+      "src": "./images/icon-96x96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "./images/icon-128x128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "./images/icon-152x152.png",
+      "type": "image/png",
+      "sizes": "152x152"
+    },
+    {
+      "src": "./images/icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "./images/icon-384x384.png",
+      "type": "image/png",
+      "sizes": "384x384"
+    },
+    {
+      "src": "./images/icon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}

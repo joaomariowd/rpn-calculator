@@ -1,0 +1,77 @@
+html {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, sans-serif;
+}
+
+body {
+  background: url(../images/black_paper.png);
+}
+
+.calculator {
+  margin-top: 5rem;
+  padding: 2px;
+  background: url(../images/brushed_alu_dark.png);
+  border: 1px outset #777;
+}
+
+.display {
+  border: #c0c0c9 solid 1px;
+  padding: 2px 2px 2px 2px;
+}
+
+.display div {
+  font-size: 3rem;
+  text-align: right;
+  color: #333;
+  background-color: #f3f3f3;
+  height: 1.5em;
+  padding-right: .75em;
+}
+
+.display div:not(:last-child) {
+  border-bottom: #333 dashed 1px;
+}
+
+.keypad {
+  padding: 0.5rem 0;
+}
+
+.button-row {
+  font-size: 2rem;
+  text-align: center;
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  .button-row div {
+    min-height: 6rem;
+    line-height: 6rem;
+  }
+}
+
+.button {
+  color: white;
+  border: solid #c0c0c9 1px;
+  border-width: 0 1px 1px 0;
+  height: 1.5em;
+}
+
+.button-left {
+  border-left-width: 1px !important;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button:active {
+  background-color: #3333331a;
+}
+
+div.top div {
+  border: solid #c0c0c9 1px;
+  border-width: 1px 1px 1px 0;
+}
+
+.calc-button-pressed {
+  background-color: blue;
+}
